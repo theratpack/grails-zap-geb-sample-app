@@ -61,5 +61,7 @@ grails.project.dependency.resolution = {
 
 	test ":geb:$gebVersion"
 	test ":spock:0.7"
+
+	compile ":zap-security-tests:0.1.2"
     }
 }
