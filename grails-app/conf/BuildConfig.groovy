@@ -56,10 +56,7 @@ grails.project.dependency.resolution = {
         test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
 
         test "org.gebish:geb-spock:$gebVersion"
-
-        test("org.seleniumhq.selenium:selenium-htmlunit-driver:$seleniumVersion") //{
-//            exclude "xml-apis"
-//        }
+        test("org.seleniumhq.selenium:selenium-htmlunit-driver:$seleniumVersion")
         test("org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion")
         test("org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion")
     }
