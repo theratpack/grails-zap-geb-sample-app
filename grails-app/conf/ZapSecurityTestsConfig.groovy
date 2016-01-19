@@ -1,8 +1,8 @@
-import org.zaproxy.clientapi.core.Alert
+//import org.zaproxy.clientapi.core.Alert
 
 zap {
     // Absolute path where ZAP is installed
-    installDir = '/home/chous/toolbox/ZAP'
+    installDir = '/opt/zaproxy'
 
     // Address the proxy will bind
     proxyHost = 'localhost'
@@ -47,5 +47,5 @@ zap {
     timeout = 10000
 
     // Enable debug in the REST based API interactions with ZAP
-    debug = true
+    debug = false
 }
