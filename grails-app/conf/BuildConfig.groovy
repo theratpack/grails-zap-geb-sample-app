@@ -84,7 +84,6 @@ grails.project.dependency.resolution = {
         //compile ":coffee-asset-pipeline:1.8.0"
         //compile ":handlebars-asset-pipeline:1.3.0.3"
 
-
-        compile ":zap-security-tests:0.1.3-SNAPSHOT"
+        compile ":zap-security-tests:0.1.3"
     }
 }
